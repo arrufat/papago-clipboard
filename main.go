@@ -76,11 +76,13 @@ func main() {
 	case knownLang:
 		trans, err = papago.Translate(text,
 			knownLang,
-			learnLang)
+			learnLang,
+			papago.TranslateOptions{})
 	default:
 		trans, err = papago.Translate(text,
 			lang,
-			knownLang)
+			knownLang,
+			papago.TranslateOptions{})
 	}
 	// handle translation errors
 	if err != nil {
