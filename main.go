@@ -77,12 +77,12 @@ func main() {
 		trans, err = papago.Translate(text,
 			knownLang,
 			learnLang,
-			papago.TranslateOptions{Honorific: true})
+			papago.TranslateOptions{Honorific: false})
 	default:
 		trans, err = papago.Translate(text,
 			lang,
 			knownLang,
-			papago.TranslateOptions{Honorific: true})
+			papago.TranslateOptions{Honorific: false})
 	}
 	// handle translation errors
 	if err != nil {
