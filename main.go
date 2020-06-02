@@ -30,7 +30,7 @@ func main() {
 
 	// notification setup
 	notify := notificator.New(notificator.Options{
-		DefaultIcon: "icon/default.png",
+		// DefaultIcon: "/home/adria/Pictures/papago.png",
 		AppName:     "Papago",
 	})
 
@@ -76,11 +76,13 @@ func main() {
 	case knownLang:
 		trans, err = papago.Translate(text,
 			knownLang,
-			learnLang)
+			learnLang,
+			papago.TranslateOptions{Honorific: true})
 	default:
 		trans, err = papago.Translate(text,
 			lang,
-			knownLang)
+			knownLang,
+			papago.TranslateOptions{Honorific: true})
 	}
 	// handle translation errors
 	if err != nil {
