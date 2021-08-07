@@ -1,0 +1,6 @@
+github.com/0xAX/notificator v0.0.0-20210731104411-c42e3d4a43ee h1:LgokYDTCpaZBHtl/oGwLxNCr3kM5Qt+Z7mInv4MqFNM=
+github.com/0xAX/notificator v0.0.0-20210731104411-c42e3d4a43ee/go.mod h1:NtXa9WwQsukMHZpjNakTTz0LArxvGYdPA9CjIcUSZ6s=
+github.com/arrufat/papago v0.0.0-20210807160059-98a8dbc16c14 h1:bkc/JHr/gxYj9ISl/iGycac+q1VtB41zHHy9S9zBGJU=
+github.com/arrufat/papago v0.0.0-20210807160059-98a8dbc16c14/go.mod h1:tiNeI50dTPC452LJJb0R0a5wt6qZgKSUbDcns0BJuSc=
+github.com/atotto/clipboard v0.1.4 h1:EH0zSVneZPSuFR11BlR9YppQTVDbh5+16AmcJi4g1z4=
+github.com/atotto/clipboard v0.1.4/go.mod h1:ZY9tmq7sm5xIbd9bOK4onWV4S6X0u6GY7Vn0Yu86PYI=
